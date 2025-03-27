@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie's Journal</title>
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Foodie's Journal</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#modal1" class="modal-trigger">Add Recipe</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="container center-align">
+            <h1>Discover & Share Amazing Recipes!</h1>
+            <p class="flow-text">Your personal space to collect and share delicious recipes.</p>
+        </div>
+    </div>
+
+    <!-- Recipe Cards Section -->
+    <div class="container">
+        <h2 class="center-align">Featured Recipes</h2>
+        <div class="row" id="card-section">
+            <!-- Recipe Cards will be added dynamically -->
+        </div>
+    </div>
+
+    <!-- Modal Form -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Add a Recipe</h4>
+            <div class="input-field">
+                <input id="recipe-name" type="text">
+                <label for="recipe-name">Recipe Name</label>
+            </div>
+            <div class="input-field">
+                <input id="image-url" type="text">
+                <label for="image-url">Image URL</label>
+            </div>
+            <div class="input-field">
+                <textarea id="description" class="materialize-textarea"></textarea>
+                <label for="description">Short Description</label>
+            </div>
+            <div class="input-field">
+                <textarea id="full-recipe" class="materialize-textarea"></textarea>
+                <label for="full-recipe">Full Recipe Link</label>
+            </div>
+            <button class="btn waves-effect waves-light" id="submitForm">Add Recipe</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
