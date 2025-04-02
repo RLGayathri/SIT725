@@ -1,0 +1,18 @@
+{
+  "name": "adding-a-database",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "Lakshmi Gayathri Rayudu",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.1"
+  }
+}
