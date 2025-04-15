@@ -1,0 +1,23 @@
+{
+  "name": "foodies-journal-testing",
+  "version": "1.0.0",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha tests/**/*.test.js",
+    "start": "node server.js"
+  },
+  "author": "Gayathri",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.1.0"
+  }
+}

@@ -1,0 +1,26 @@
+body {
+    background: #c8a56c;
+}
+
+.nav-wrapper {
+    background: #ff7043;
+}
+
+.hero {
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.hero .btn-large {
+    background-color: #d84315;
+}
