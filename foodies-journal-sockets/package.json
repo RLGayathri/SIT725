@@ -1,0 +1,20 @@
+{
+  "name": "foodies-journal-sockets",
+  "version": "1.0.0",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "Gayathri Rayudu",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.14.0",
+    "socket.io": "^4.8.1"
+  }
+}
